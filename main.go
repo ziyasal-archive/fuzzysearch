@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println(Fuzzysearch("twl", "cartwheel"))
+	fmt.Println(FuzzySearch("twl", "cartwheel"))
 }

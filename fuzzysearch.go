@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Fuzzysearch(needle string, haystack string) bool {
+func FuzzySearch(needle string, haystack string) bool {
 	var _needle = []rune(needle)
 	var _haystack = []rune(haystack)
 

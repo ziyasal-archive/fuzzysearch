@@ -1,7 +1,9 @@
 
 package main
 
-import "testing"
+import (
+  "testing"
+  )
 
 func TestFuzzySearch(t *testing.T) {
   var v bool
